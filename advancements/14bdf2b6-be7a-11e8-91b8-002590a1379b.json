@@ -121,6 +121,7 @@
       "minecraft:piglin": "2025-04-03 22:59:51 +0300",
       "minecraft:enderman": "2025-04-04 15:54:20 +0300",
       "minecraft:silverfish": "2025-04-19 13:24:01 +0300",
+      "minecraft:stray": "2025-04-21 00:38:40 +0300",
       "minecraft:vex": "2025-04-20 11:53:54 +0300",
       "minecraft:zombie": "2025-03-28 18:43:29 +0300",
       "minecraft:drowned": "2025-04-02 14:47:11 +0300",
@@ -4454,6 +4455,12 @@
   "minecraft:adventure/hero_of_the_village": {
     "criteria": {
       "hero_of_the_village": "2025-04-20 11:54:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-04-21 02:06:35 +0300"
     },
     "done": true
   },
