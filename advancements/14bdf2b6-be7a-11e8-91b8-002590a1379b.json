@@ -44,6 +44,7 @@
       "minecraft:dripstone_caves": "2025-03-28 20:24:59 +0300",
       "minecraft:old_growth_birch_forest": "2025-04-19 15:41:03 +0300",
       "minecraft:swamp": "2025-04-19 13:13:06 +0300",
+      "minecraft:meadow": "2025-04-25 22:50:51 +0300",
       "minecraft:windswept_gravelly_hills": "2025-03-28 21:58:09 +0300",
       "minecraft:savanna": "2025-04-24 11:53:07 +0300",
       "minecraft:plains": "2025-03-28 20:02:46 +0300"
@@ -3151,7 +3152,9 @@
     "criteria": {
       "minecraft:siamese": "2025-04-05 00:38:33 +0300",
       "minecraft:jellie": "2025-04-05 00:48:38 +0300",
-      "minecraft:all_black": "2025-04-05 01:44:23 +0300"
+      "minecraft:black": "2025-04-25 23:55:46 +0300",
+      "minecraft:all_black": "2025-04-05 01:44:23 +0300",
+      "minecraft:british_shorthair": "2025-04-25 23:52:47 +0300"
     },
     "done": false
   },
@@ -5052,69 +5055,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2025-04-24 17:46:04 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
       "has_waxed_oxidized_copper": "2025-04-24 15:15:18 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/misc/emerald": {
-    "criteria": {
-      "has_emerald_block": "2025-04-24 15:55:57 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
       "has_waxed_oxidized_copper": "2025-04-24 15:15:18 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-04-24 17:47:00 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bolt_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-04-24 15:49:11 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/orange_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2025-04-24 18:29:54 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_chiseled_copper": {
-    "criteria": {
-      "has_waxed_cut_copper_slab": "2025-04-24 15:17:42 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/green_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2025-04-24 18:30:20 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_sandstone": {
-    "criteria": {
-      "has_sandstone_slab": "2025-04-24 17:59:34 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/yellow_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2025-04-24 18:29:52 +0300"
     },
     "done": true
   },
@@ -5130,33 +5079,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
-    "criteria": {
-      "has_cut_sandstone": "2025-04-24 17:52:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2025-04-24 17:48:53 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
-    "criteria": {
-      "has_cut_sandstone": "2025-04-24 17:52:28 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
       "has_waxed_oxidized_copper": "2025-04-24 15:15:18 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_candle": {
-    "criteria": {
-      "has_black_dye": "2025-04-24 17:47:00 +0300"
     },
     "done": true
   },
@@ -5166,21 +5091,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_black_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-04-24 17:47:00 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
       "has_waxed_oxidized_copper": "2025-04-24 15:15:18 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_black_wool": {
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
-      "has_needed_dye": "2025-04-24 17:47:00 +0300"
+      "has_waxed_oxidized_copper": "2025-04-24 15:15:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_chiseled_copper": {
+    "criteria": {
+      "has_waxed_cut_copper_slab": "2025-04-24 15:17:42 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-04-24 15:49:11 +0300"
     },
     "done": true
   },
@@ -5190,9 +5121,135 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting": {
+  "minecraft:recipes/misc/emerald": {
     "criteria": {
-      "has_waxed_oxidized_copper": "2025-04-24 15:15:18 +0300"
+      "has_emerald_block": "2025-04-24 15:55:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-04-24 17:46:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-04-24 17:47:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2025-04-24 17:47:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-04-24 17:47:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-04-24 17:47:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-04-24 17:48:53 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2025-04-24 17:52:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2025-04-24 17:52:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone": {
+    "criteria": {
+      "has_sandstone_slab": "2025-04-24 17:59:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-04-24 18:29:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-04-24 18:29:54 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-04-24 18:30:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-25 23:24:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-25 23:24:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_slab": {
+    "criteria": {
+      "has_planks": "2025-04-25 23:24:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_button": {
+    "criteria": {
+      "has_planks": "2025-04-25 23:24:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-25 23:24:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-25 23:24:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_sign": {
+    "criteria": {
+      "has_planks": "2025-04-25 23:24:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_door": {
+    "criteria": {
+      "has_planks": "2025-04-25 23:24:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_planks": "2025-04-25 23:24:11 +0300"
     },
     "done": true
   },

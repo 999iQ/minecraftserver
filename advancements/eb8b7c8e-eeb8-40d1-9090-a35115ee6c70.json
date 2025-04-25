@@ -123,16 +123,21 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2025-04-11 22:57:34 +0300",
-      "minecraft:cave_spider": "2025-03-28 21:08:12 +0300",
       "minecraft:skeleton": "2025-03-28 20:00:11 +0300",
+      "minecraft:wither_skeleton": "2025-04-11 23:01:02 +0300",
+      "minecraft:bogged": "2025-04-26 00:03:25 +0300",
+      "minecraft:hoglin": "2025-04-11 22:54:33 +0300",
+      "minecraft:cave_spider": "2025-03-28 21:08:12 +0300",
       "minecraft:piglin": "2025-04-04 21:40:09 +0300",
+      "minecraft:breeze": "2025-04-26 00:04:57 +0300",
       "minecraft:stray": "2025-04-11 12:49:34 +0300",
       "minecraft:enderman": "2025-04-11 23:04:19 +0300",
+      "minecraft:silverfish": "2025-04-26 00:03:52 +0300",
       "minecraft:magma_cube": "2025-04-04 21:45:30 +0300",
-      "minecraft:wither_skeleton": "2025-04-11 23:01:02 +0300",
+      "minecraft:spider": "2025-04-25 22:53:33 +0300",
       "minecraft:zombie": "2025-03-28 21:11:39 +0300",
       "minecraft:creeper": "2025-04-11 12:09:35 +0300",
-      "minecraft:hoglin": "2025-04-11 22:54:33 +0300"
+      "minecraft:drowned": "2025-04-25 22:52:52 +0300"
     },
     "done": false
   },
@@ -154,6 +159,7 @@
       "apple": "2025-03-28 20:02:06 +0300",
       "bread": "2025-03-28 20:09:41 +0300",
       "cooked_chicken": "2025-04-11 22:36:41 +0300",
+      "rotten_flesh": "2025-04-25 23:59:47 +0300",
       "cooked_mutton": "2025-03-28 20:42:53 +0300",
       "sweet_berries": "2025-04-05 01:10:56 +0300",
       "cooked_beef": "2025-04-11 12:07:17 +0300",
@@ -3246,6 +3252,264 @@
   "minecraft:story/enter_the_end": {
     "criteria": {
       "entered_end": "2025-04-16 13:20:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-04-25 22:52:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2025-04-26 00:02:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed": {
+    "criteria": {
+      "has_orange_wool": "2025-04-25 22:38:39 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-04-25 22:52:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-26 00:23:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_banner": {
+    "criteria": {
+      "has_orange_wool": "2025-04-25 22:38:39 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2025-04-26 00:04:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_door": {
+    "criteria": {
+      "has_copper_ingot": "2025-04-25 22:52:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs": {
+    "criteria": {
+      "has_tuff_bricks": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-26 00:23:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_slab": {
+    "criteria": {
+      "has_planks": "2025-04-26 00:23:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2025-04-26 00:06:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-04-25 22:39:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-04-25 22:52:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_button": {
+    "criteria": {
+      "has_planks": "2025-04-26 00:23:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-26 00:23:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-26 00:23:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2025-04-26 00:04:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_carpet": {
+    "criteria": {
+      "has_orange_wool": "2025-04-25 22:38:39 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_trapdoor": {
+    "criteria": {
+      "has_copper_ingot": "2025-04-25 22:52:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_sign": {
+    "criteria": {
+      "has_planks": "2025-04-26 00:23:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall": {
+    "criteria": {
+      "has_tuff_bricks": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+    "criteria": {
+      "has_tuff_bricks": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2025-04-25 22:52:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_door": {
+    "criteria": {
+      "has_planks": "2025-04-26 00:23:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_planks": "2025-04-26 00:23:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-04-26 00:10:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2025-04-26 00:16:41 +0300"
     },
     "done": true
   },
